@@ -10,7 +10,7 @@ $(document).ready(function () {
       "I'm totally interested.",
       "Not at all lying.",
       "Totally not doing this for the sole purpose of my CV.",
-      "Pinky promise. 🫡",
+      "Pinky promise. :)",
       "~~ uwu ~~ ",
     ],
     typeSpeed: 60,
