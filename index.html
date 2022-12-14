@@ -21,6 +21,9 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/bot-style.css" />
+
   </head>
 
   <body>
@@ -235,7 +238,7 @@
                   <i class="fa fa-coffee"></i>
                 </div>
                 <div class="squareContent">
-                  <h2 class="counter">999999</h2>
+                  <h2 class="counter">999</h2>
                   <h3>Cups Of Coffee</h3>
                 </div>
               </div>
@@ -278,6 +281,22 @@
       </div>
     </div>
 
+    <!--Chatbot-->
+
+     <div id="container" class="container">
+      <div id="chat" class="chat">
+        <div id="messages" class="messages"></div>
+        <input
+          id="input"
+          type="text"
+          placeholder="Say something..."
+          autocomplete="off"
+          autofocus="true"
+        />
+      </div>
+      <img src="img/bot.png" alt="Robot cartoon" height="250vh" />
+    </div>
+
     <!-- Script Links -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js"></script>
@@ -302,5 +321,12 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
+
+    <!--Chatbot Scripts-->
+
+    <script type="text/javascript" src="js/chatbot-script.js"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <script type="text/javascript" src="js/speech.js"></script>
+
   </body>
 </html>

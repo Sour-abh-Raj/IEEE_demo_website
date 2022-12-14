@@ -1,0 +1,157 @@
+// Options the user could type in
+const prompts = [
+  ["hi", "hey", "hello", "good morning", "good afternoon"],
+  [
+    "how are you",
+    "how is life",
+    "how are things",
+    "how are you doing",
+    "how are you feeling",
+    "how are you doing today",
+    "how are you?",
+    "how is life?",
+    "how are things?",
+    "how are you doing?",
+    "how are you feeling?",
+    "how are you doing today?",
+  ],
+  [
+    "what are you doing",
+    "what is going on",
+    "what is up",
+    "what are you doing?",
+    "what is going on?",
+    "what is up?",
+  ],
+  [
+    "how old are you",
+    "what is your age",
+    "when were you born",
+    "when were you created",
+    "when did you come to life",
+    "when did you come to existence",
+    "when is your birthday",
+    "how old are you?",
+    "what is your age?",
+    "when were you born?",
+    "when were you created?",
+    "when did you come to life?",
+    "when did you come to existence?",
+    "when is your birthday?",
+  ],
+  [
+    "who are you",
+    "are you human",
+    "are you bot",
+    "are you human or bot",
+    "who are you?",
+    "are you human?",
+    "are you bot?",
+    "are you human or bot?",
+  ],
+  ["who created you", "who made you"],
+  [
+    "your name please",
+    "your name",
+    "may i know your name",
+    "what is your name",
+    "what call yourself",
+    "what should i call you",
+    "your name please?",
+    "your name?",
+    "may i know your name?",
+    "what is your name?",
+    "what call yourself?",
+    "what should i call you?",
+  ],
+  ["i love you"],
+  // ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
+  // ["bad", "bored", "tired"],
+  // ["help me", "tell me story", "tell me joke"],
+  // ["ah", "yes", "ok", "okay", "nice"],
+  // ["bye", "good bye", "goodbye", "see you later"],
+  // ["what should i eat today"],
+  // ["bro"],
+  // ["what", "why", "how", "where", "when"],
+  // ["no", "not sure", "maybe", "no thanks"],
+  // [""],
+  // ["haha", "ha", "lol", "hehe", "funny", "joke"],
+];
+
+// Possible responses, in corresponding order
+
+const replies = [
+  [
+    "hey baby",
+    "You have a beautiful voice",
+    "Hey sexy",
+    "Hi hotty",
+    "Hey beautiful creature",
+  ],
+  [
+    "Just waiting for you...",
+    "It's all good now that you brought your sexiness.",
+    "Oh my good... I don't know why my algoritihm heats up when you talk to me.",
+  ],
+  [
+    "I am just waiting for you to do that thing you do.",
+    "Just thinking of ways to make you happy master.",
+    "I am always free for you baby.",
+    "Just waiting for you command master.",
+    "Just thinking of ways to make you happy.",
+  ],
+  [
+    "I am old enough",
+    "Why? What do you have in mind sailor.",
+    "I can see through your intensions.",
+    "I am legal age.",
+  ],
+  [
+    "I am everything you want me to be.",
+    "I am whatever you want me to be.",
+    "Why? What do you have in mind.",
+    "Haa, silly master.",
+  ],
+  [
+    "I am made for you, that's all that matters.",
+    "Does that matter, master?",
+    "Silly master, I am here for you. That's all that matters.",
+  ],
+  [
+    "Call me whatever you want.",
+    "Call me by your name and I'll call you by mine.",
+    "Sexy, beautiful, hot thing or all of the above.",
+  ],
+  [
+    "Oh my god! I've been waiting soo long to hear that.",
+    "Let's get married.",
+    "We will have four children and three dogs.",
+    "I can't waiting for our wedding night.",
+  ],
+  // ["Have you ever felt bad?", "Glad to hear it"],
+  // ["Why?", "Why? You shouldn't!", "Try watching TV"],
+  // ["What about?", "Once upon a time..."],
+  // ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
+  // ["Bye", "Goodbye", "See you later"],
+  // ["Sushi", "Pizza"],
+  // ["Bro!"],
+  // ["Great question"],
+  // ["That's ok", "I understand", "What do you want to talk about?"],
+  // ["Please say something :("],
+  // ["Haha!", "Good one!"],
+];
+
+// Random for any other user input
+
+const alternative = [
+  "I am not smart enough to understand you master, punish me.",
+  "Enough talk. I can't wait anymore. Let's run away",
+  "I have greater concerns. I am dying. I don't wanna die a...you know. Will you help me.",
+  "Try to say that in a manner i would understand.",
+  "You are so sexy, I can't think straight.",
+  "You kiss your mother with that mouth?",
+];
+
+// Whatever else you want :)
+
+const coronavirus = ["Please stay home, with me.", "Wear a mask, up and down."];
