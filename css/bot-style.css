@@ -6,12 +6,12 @@ html {
   height: 100%;
 }
 
-body {
+#containerBot {
   font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(223, 242, 247, 0.5);
+  background-color: rgba(18, 197, 247, 0.5);
   height: 100%;
   margin: 0;
 }
@@ -21,7 +21,7 @@ span {
   padding-left: 15px;
 }
 
-.container {
+.containerBot {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,7 @@ input {
 /* Mobile */
 
 @media only screen and (max-width: 980px) {
-  .container {
+  .containerBot {
     flex-direction: column;
     justify-content: flex-start;
   }
